@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mockplus</title>
+    <style>
+        body{
+            background-image: url(mouse.jpg);
+            color: white;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        form{
+            border-radius: 30px;
+            margin: 0px auto;
+            position: absolute;
+            top: 65%;
+            left: 28%;
+            transform: translate(-50%,-50%);
+            width: 329px;
+            height: 350px;
+            border: 1px solid white;
+            background-color: white;
+            padding: 16px;
+        }
+
+        input{
+            margin-left: 35px;
+            width: 239px;
+            height: 25px;
+            border-radius: 7px;
+            border: 1px solid rgb(243, 76, 104);
+            padding: 10px 10px 10px 10px;
+        }
+
+        h3{
+            margin-left: 35px;
+        }
+
+        button{
+            padding: 10px 10px 10px 10px;
+            background-color:rgb(241, 159, 173);
+            width: 257px;
+            height: 45px;
+            margin-left: 35px;
+            margin-top: 20px;
+            color: white;
+            border-radius: 5px;
+            border: none;
+        }
+
+        p{
+            margin-left: 35px;
+            font-size: 10px;
+            font-weight: lighter;
+            font-family: sans-serif;
+            color: rgb(182, 164, 164);
+        }
+
+        .ng{
+            color: rgb(243, 76, 104);
+        }
+
+        .d{
+            background-color: rgb(238, 235, 235);
+            height: 1px;
+            width: 239px;
+            margin-left: 45px;
+        }
+
+        .di{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;      
+        }
+        
+        ul{
+         display:flex;
+         flex-direction: row;
+         list-style-type: none;
+         justify-content: space-around;
+       }
+
+       li{
+            margin-left: 30px;
+            color:  rgb(243, 76, 104);
+            visibility: hidden;
+        }
+
+       .p2{
+            color: rgb(182, 164, 164);
+            display: flex;
+            flex-direction: row;
+            margin-left: 40px;
+        }
+
+        .img2{
+            margin-left: 136px;
+        }
+
+        img{
+            margin-left: 18px;
+        }
+
+        .g{
+          margin-left: 5px;
+          font-size: 10px;
+        }
+
+        .disclaimer{
+            padding: 10px;
+            text-align: center;
+            font-size: 18px;
+            color:red;
+            font-weight: lighter;
+        }
+   
+       @media screen and (max-width:768px) {
+        body{
+            background-image: url(mouse.jpg);
+            background-repeat: repeat;
+        }
+
+        input{
+            margin-left: 30px;
+            width: 239px;
+            height: 30px;
+            border-radius: 7px;
+            text-align: left;
+            padding: 10px 10px 10px 10px;
+            border-color: black;
+        }
+
+        input:hover {
+            border-color: rgb(243, 76, 104);
+            outline-color: rgb(243, 76, 104);
+        }
+
+
+        button{
+            padding: 10px 10px 10px 10px;
+            background-color:rgb(241, 159, 173);
+            width: 268px;
+            height: 50px;
+            margin-left: 30px;
+            margin-top: 20px;
+            color: white;
+            border-radius: 5px;
+            border: none;
+        }
+
+
+        form{
+            border-radius: 30px;
+            margin: 0px auto;
+            position: absolute;
+            top: 81%;
+            left: 39%;
+            transform: translate(-50%,-50%);
+            width: 329px;
+            height: 475px;
+            border: 1px solid white;
+            background-color: white;
+            padding: 0px 0px 0px 0px;
+        }
+        
+        h3{
+            font-size: 33px;
+        }
+
+        .img{
+            height: 25px;
+        }
+        .img2{
+            height: 25px;
+            margin-left: 114px;
+        }
+
+
+        p{
+            margin-left: 30px;
+            font-size: 13px;
+            font-weight: lighter;
+            font-family: sans-serif;
+            color: rgb(182, 164, 164);
+        }
+
+        .g{
+          margin-left: 5px;
+          font-size: 13px;
+        }
+        .mock{
+            height: 28px;
+        }
+        lighter{
+            font-size: 23px;
+        }
+
+        li{
+            margin-left: 15px;
+            color:  rgb(243, 76, 104);
+            visibility: hidden;
+        }
+
+       }
+    </style> 
+    
+</head>
+<body>
+    <footer class="disclaimer">
+        <marquee>
+            This webpage is created for educational purpose(it is a student project) and  
+            is not intended to clone or replicate any existing website.
+        </marquee>
+        <div class="di">
+            <ul>
+                <li>Home</li>
+                <li>About Us</li>
+                <li>Contact Us</li>
+                <li>Our Services</li>
+                <li>Home</li>
+                <li>About Us</li>
+                <li>Contact Us</li>
+                <li>Our Services</li>
+            </ul>
+        </div>
+    </footer><br>
+    <img src="mock.png" height="15" class="mock"/> <lighter>Mockplus</lighter>
+    <form>
+        <h3 style="font-family: sans-serif; color: #000;">Sign in to Mockplus</h3>
+        <input type="email" name="email" placeholder="Email"/><br><br>
+        <input type="password" name="password" placeholder="Password                      Forget password"/>
+        <button>Sign in</button>
+        <p>Don't have an account? <span class="ng">Sign up</span></p><br>
+        <div class="d">
+       </div><br><br>
+
+       <div class="p2">
+            <span class="g">or sign in with </span>
+            <img src="google.png" class="img2" height="15"/>
+            <img src="lark.png" class="img" height="15"/>
+        </div>
+    </form>
+</body>
+     
+</html>
