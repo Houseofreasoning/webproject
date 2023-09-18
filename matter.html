@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=0.7">
     <title>mattermark</title>
     <style>
         .div{
@@ -85,25 +85,6 @@
       font-size: x-small;
      }
 
-     .d>.b{
-      display: flex;
-      flex-direction: row;
-
-     }
-
-     .d>.b>li{
-       margin-left: 20px;
-     }
-
-     .d>.b>li>a:hover{
-      font-size: x-large;
-     }
-
-     .d>.b>li>a{
-      text-decoration: none;
-      color: blue;
-     }
-
       @media screen and (max-width:768px) {
         .v{visibility: hidden;}
 
@@ -119,7 +100,8 @@
             padding-top: 8px;
         }
 
-      
+      body{font-size: medium;}
+
       }
     </style>
     <link href="boot.css" rel="stylesheet" >
@@ -138,17 +120,6 @@
    
 </head>
 <body>
-     <div style="background-color: #08987d; height: 60px;  position: fixed; width: 100%;
-      padding-top: 10px; padding-bottom: 10px;">
-        <div class="d container">
-          <ul class="b list-unstyled">
-            <li>click to go to the next page <i class="fa fa-angle-double-right"></i></li>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="matter.html">Mattermark</a></li>
-           </ul>
-        </div>
-     </div><br><br>
-
     <div class="div">
         We are excited to announce that Mattermark has re-launched as an independent company! 
         <a href="#" target="_blank" class="ln">
@@ -186,6 +157,17 @@
                       <li><a class="dropdown-item" href="#">GOOGLE SHEETS</a></li>
                       <li><a class="dropdown-item" href="#">BROWSER EXTENSION</a></li>
                       <li><a class="dropdown-item" href="#">IPHONE APP</a></li>
+                    </ul>
+                </li>
+
+                   
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="menu" data-bs-toggle="dropdown">
+                      Other projects
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="index.html">Mockplus</a></li>
+                      <li><a class="dropdown-item" href="upx.html">Mockplus</a></li>
                     </ul>
                 </li>
 
