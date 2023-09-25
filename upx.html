@@ -20,24 +20,231 @@
    </script>
     
     <style>
-        ul{
+        .list-unstyled{
             display: flex;
             flex-direction: row;
             justify-content: center;
         }
 
-        li{
+        .list{
             margin-left: 20px;
             color:yellow
+        }
+
+        .bk{
+            color: #0075d8; 
+            font-size: 20px; 
+            text-decoration: none;
+            font-weight: 590;
+        }
+
+        .bk:hover{
+            text-decoration:underline rgb(184, 184, 238);
+        }
+        
+        .lk{
+            text-decoration: none;
+        }
+
+        .lk:hover{
+            text-decoration:underline rgb(184, 184, 238);
+        }
+
+        .cat{
+            color:#fff;
+            font-family:sans-serif; 
+            font-size: 19px; 
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        .cat:hover{
+           text-decoration: underline;
+        }
+
+        .gun:hover{
+            background-color: pink;
+        }
+
+        .gun{
+             color:white;
+             background-color: #ffb6b6;
+             border: none; 
+             border-radius: 3px; 
+             width:230px;
+             padding-top: 10px; 
+             padding-bottom: 10px;
+             font-size: small;
+             font-weight: 500;
+        }
+
+        .rat{
+            color:#0075d8;
+            font-family:sans-serif; 
+            font-size: 20px; 
+            text-decoration: none;
+            font-weight: 500;
+            line-height: 20px;
+        }
+
+        .rat:hover{
+            text-decoration: underline;
+        }
+
+        .mat{
+            border: 1px solid #0693e3;
+            width: 200px;
+            padding-top: 8px; 
+            padding-bottom: 8px;
+            font-size: small;
+            color: #0075d8;
+            background-color: #fff;
+            font-weight: 700;
+            border-radius: 2px;
+        }
+
+        .mat:hover{
+            background-color: dodgerblue;
+            color: white;
+        }
+
+        .pin{
+            display: block;
+            width: 125px;
+            height: 129px;
+            border:  solid #fff;
+            background: none;
+            color: #fff;
+            font-size: 34px;
+            font-family: Lucida Sans;
+            padding: 10px 10px 10px 10px;
+            font-weight: 400;
+            font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+
+        .but{
+            background-color: #0075d8;
+            padding: 10px;
+            color: #fff;
+            width: 200px;
+            border: none;
+        }
+
+        .but:hover{
+          background-color: #0693e3;
+        }
+
+        .drip{
+            background-color: deeppink;
+            color: #fff;
+            font-size: 11px;
+            border: none;
+            width: 150px;
+            padding: 3px 8px;
+            border-radius: 2px;
+            font-weight: 400;
+        }
+
+        .drip:hover{
+            background-color: rgb(240, 112, 133); 
+        }
+
+        .uppercase-header{
+            display: block;
+            margin: 0;
+            color: #fff;
+            font-weight: 300;
+            text-transform: uppercase;
+            line-height: 30px;
+            font-size: 28px;
+        }
+
+        .nu{
+            color: #adbfcb;
+            font-size: 15px;
+            margin-left: 37px;
+            font-family: proxima-nova,sans-serif;
+            list-style-type: disc ;
+        }
+
+        .un{
+            list-style-type: none;
+            color:  #adbfcb;
+        }
+
+        input{
+            border: 1px solid #e4e4e4;
+            border-radius: 2px;
+            font-size: 16px;
+            height: 33px;
+            line-height: 33px;
+            padding: 0 15px 0 11px;
+            width: 319px;
+            outline: 0;
+            height: 46px;
+        }
+
+        input[type="text" i] {
+            padding: 1px 2px;
+        }
+
+        .uy{
+            border-radius: 2px; 
+            height: 33px;
+            line-height: 46px;
+            padding-left: 30px;
+            padding-right: 30px;
+            border: none;
+            height: 46px;
+            margin-left: 9px;
+            font-size: 16px;
+            background-color: orangered;
+            color: #fff;
+            font-weight: bold;
+            width: 173px;
+        }
+
+        .b:hover{
+            text-decoration: underline;
+        }
+
+        .b{
+            color: #adbfcb;
+            text-decoration:none;
+        }
+
+        .l{
+            list-style-type: none;
+        }
+       
+       .a{
+         color: #adbfcb;
+         text-decoration: none;
+         font-size: 12px;
+        }
+        a:hover{
+         text-decoration: underline;
+        }
+        .pi{
+            display: block;
+            width: 69px;
+            height: 69px;
+            border: 1px solid #3b4b60;;
+            background: none;
+            color: #fff;
+            font-size: 21px;
+            font-family: Lucida Sans;
+            margin-left: 630px;
+            font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         }
     </style>
 </head>
 <body>
     <div style="background-color: green;padding-top: 25px;padding-bottom: 25px;position:fixed; width: 100%;">
         <ul class="list-unstyled">
-            <li>Home</li>
-            <li>About us</li>
-            <li>Contact us</li>
+            <li class="list">Home</li>
+            <li class="list">About us</li>
+            <li class="list">Contact us</li>
         </ul>
     </div><br><br><br><br><br><br>
 
@@ -49,20 +256,373 @@
 
     <div class="container">
         <div class="row">
-            <div class="col-sm-4">
-                <img src="Storybook.png">
+            <div class="col-sm-4 col-xs-12">
+                <img src="Storybook.png"><br>
+                <a href="#" class="bk">
+                    What is Storybook and Why<br>Your Product Team Needs it?
+                </a>
+                <p style="font-size: x-small; font-family: sans-serif; color: #9d9d9d; ">
+                    by UXPin
+                </p>
+
+                <p style="color:grey; font-weight: 400; width: 306px;">
+                    Building a UI component library makes it so much easier for your team to 
+                    create designs that work well, conform to your brand’s style guide, and pass
+                    their work on to the developers who ultimately code products and release them to the world. 
+                    In the long run, a UI component library saves more time and (…)<br>
+                    <a href="#"class="lk">Read more</a>
+                </p>
             </div>
 
-            <div class="col-sm-4">
-                <img src="PRODUCT.png">
+            <div class="col-sm-4 col-xs-6">
+                <img src="PRODUCT.png"><br>
+                <a href="#" class="bk">
+                    What is New at UXPin? We're<br>Back with Another Product Update
+                </a>
+                <p style="font-size: x-small;font-family: sans-serif;color: #9d9d9d;">
+                    by UXPin
+                </p>
+
+                <p style="color: #5c5c5c; font-weight: 400; width: 306px;">
+                    It’s about time you log into UXPin app, build a new prototype and discover all those changes 
+                    we’ll be 
+                    talking about it here. Join us for a new product update. Take a look 
+                    on our design technology for designing with UI coded components that are interactive by default. 
+                    Discover UXPin Merge.Mobile prototype QR code (…)<br>
+                    <a href="#"class="lk">Read more</a>
+                </p>
             </div>
 
-            <div class="col-sm-4">
-                <img src="UITrends.png">
+            <div class="col-sm-4 col-xs-6">
+                <img src="UITrends.png"><br>
+                <a href="#" class="bk">
+                    10 UX UI Design Trends that<br> Dominate 2023 and Beyond 
+                </a>
+                <p  style="font-size: x-small;font-family: sans-serif;color: #9d9d9d;">
+                    by UXPin
+                </p>
+
+                <p style="color: #5c5c5c; font-weight: 400;width: 306px;">
+                    Personalization, scrollytelling, data storytelling, and buttonless UIs are some of the most exciting 
+                    2023 UI design trends. Our research has also noticed an interesting UX UI trend toward larger screens, 
+                    with Instagram improving its desktop experience to 
+                    accommodate the growing demand. Key takeaways: Create high-quality, fully functioning prototypes to 
+                    test your UI design ideas with (…)<br>
+                    <a href="#"class="lk">Read more</a>
+                </p>
             </div>
         </div>
-    </div>
+    </div><br>
 
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4">
+                <img src="Design.png"><br>
+                <a href="#" class="bk">
+                   Design Strategy - Definition,<br>Scope, and Value 
+                </a>
+                <p style="font-size: x-small; font-family: sans-serif; color: #9d9d9d;">
+                    by UXPin
+                </p>
+
+                <p style="color: #5c5c5c; font-weight: 400; width: 306px;">
+                    A design strategy’s importance lies in bridging the gap between business aspirations and user needs. 
+                    Creating alignment across all design decision-making enables more effective and efficient 
+                    product development. Its strategic approach ensures organizations don’t just design for design’s sake;
+                    instead, design teams generate value for both the business and its users.
+                    Key takeaways: Execute your (…)<br>
+                    <a href="#"class="lk">Read more</a>
+                </p>
+            </div>
+
+            <div class="col-sm-4">
+                <img src="Figma-Design-System.png"><br>
+                <a href="#" class="bk">
+                    Figma Design System vs UXPin<br> Design System – A Deep<br> Comparison                                     
+                </a>
+                <p  style="font-size: x-small;font-family: sans-serif; color: #9d9d9d;">
+                    by UXPin
+                </p>
+
+                <p style="color: #5c5c5c; font-weight: 400; width: 306px;">
+                    Design systems streamline the product design process, ensuring consistency and scalability
+                    across teams. Figma and UXPin, offer robust solutions, each with unique features tailored to 
+                    different needs. This article explores Figma’s Team Library, its benefits, and potential drawbacks. 
+                    We also present an alternative to Team Library with UXPin’s Design Systems and Merge technology.
+                     Key takeaways: (…)<br>
+                    <a href="#"class="lk">Read more</a>
+                </p>
+            </div>
+
+            <div class="col-sm-4">
+                <img src="Figma-to-React.png"><br>
+                <a href="#" class="bk">
+                Figma to React — Best Plugins<br> and Alternatives                                     
+                </a>
+                <p style="font-size: x-small;font-family: sans-serif; color: #9d9d9d;">
+                    by UXPin
+                </p>
+
+                <p style="color: #5c5c5c; font-weight: 400;width: 306px;">
+                    The transition from design to code is a challenge for many product teams. Figma is the cornerstone
+                    of many design processes, but translating its visual elements into interactive React components is
+                    a complex and often tense task for designers and developers. Let’s explore the Figma-to-React
+                    conversion process, evaluate top plugins, and unveil an alternative to (…)<br>
+                    <a href="#"class="lk">Read more</a>
+                </p>
+            </div>
+        </div>
+    </div><br><br>
     
+    <div style="text-align: center;">
+        <a href="#"class="lk">See all posts</a>
+    </div><br><br><br>
+
+    <div style="padding-top: 45px; width:100%; background-color: #f3f7f9;">
+        <div class="container">
+            <h3 style="color:#9d9d9d; font-weight: lighter;">
+                E-BOOKS & WHITEPAPERS
+            </h3>
+        </div><br><br>
+
+       <div class="row">
+            <div class=" col-sm-6">
+                <div class="row" style="background: rgb(41, 40, 40); padding-top: 25px; height: 300px;width: 650px;">
+                    <div class="container col-sm-6">
+                        <img src="ebookcover.png" height="298" width="230" style="margin-left: 130px;">
+                    </div>
+    
+                    <div class="container col-sm-6" >
+                        <div style="margin-left: 65px;">
+                            <a href="#"  class="cat">
+                                Design Systems &<br> DesignOps in the<br> Enterprise
+                            </a>
+                            <p style="color:white; font-size: 16px;">
+                                Spot opportunities and<br> challenges for increasing the<br>
+                                impact of design systems and<br> DesignOps in enterprises.
+                            </p>
+                            <button class="gun">
+                                Get it now
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="container col-sm-3" style="margin-left: -px;">
+                <img src="coverstudio.png" height="300">
+                <a href="#"  class="rat"><br>
+                  DesignOps Pillar: How<br>We Work Together
+                </a><br>
+                <button class="mat">
+                    Get it now
+                </button>
+            </div>
+
+            <div class="container col-sm-3" style="margin-left: -90px;">
+               <img src="designops.png" height="300">
+                <a href="#"  class="rat"><br>
+                  DesignOps 101: Guide<br>to Design Operations
+                </a><br>
+                <button class="mat">
+                    Get it now
+                </button>
+            </div>
+       </div><br><br>
+       
+       <div class="container">
+         <div class="row">
+            <div class="col-sm-3">
+                <img src="DT.png" height="300">
+                <a href="#"  class="rat"><br>
+                    Design Trends 2020
+                </a><br><br><br>
+                <button class="mat">
+                      Get it now
+                </button>
+            </div>
+
+            <div class="container col-sm-3" style="margin-left: -40px;">
+                <img src="not-facebook-the-book-1-min.png.webp"  height="300">
+                <a href="#"  class="rat"><br>
+                    Web Design Trends<br> 2019
+                </a><br><br>
+                <button class="mat">
+                      Get it now
+                </button>
+            </div>
+
+            <div class="container col-sm-3" style="margin-left: -100px;">
+                <img src="not-facebook-the-book.png (1).webp"  height="300">
+                <a href="#"  class="rat"><br>
+                    Web Design Trends<br> 2018
+                </a><br><br>
+                <button class="mat">
+                      Get it now
+                </button>
+            </div>
+
+            <div class="container col-sm-3" style="margin-left: -100px;">
+                <img src="not-facebook-the-book.png.webp"  height="300">
+                <a href="#"  class="rat"><br>
+                    Creating a Design <br> System Quickly With <br> UXPin
+                </a><br>
+                <button class="mat">
+                      Get it now
+                </button>
+             </div>
+         </div>
+       </div><br><br><br>
+
+       <div style="text-align: center;">
+        <a href="#"class="lk">See all e-books</a>
+       </div><br><br>
+        
+       
+        <div style="background-image: url(int.jpg); background-size: cover; height:350px; padding-top: 60px;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-2" style=" margin-top: 45px;">
+                        <button class="pin">
+                            UXPin
+                        </button>
+                    </div>
+    
+                    <div class="col-sm-10">
+                        <p style="color: grey;word-spacing: 6px;letter-spacing: 4px;width: 530px;">
+                            STILL HUNGRY FOR THE DESIGN?
+                        </p><br>
+                        <p style="color: rgb(182, 180, 180); width: 629px;">
+                            UXPin is a product design platform used by the best designers on<br> the planet.
+                             Let your team easily design, collaborate, and present<br> from low-fidelity wireframes
+                              to fully-interactive prototypes.
+                        </p><br>
+                        <button class="but">
+                            Start your free trial 
+                        </button>
+                    </div>
+                </div>
+            </div>   
+        </div>
+       
+    </div>
+    <br><br></br>
+
+    <div class="container">
+        <h3 style="color:#9d9d9d; font-weight: lighter;">
+            FOLLOW US
+        </h3>
+    </div><br><br>
+
+    <div class="container">
+       <div class="row" >
+           <div class="col-sm-4" style="width: 290px;height: 158px;border: 1px solid #ececec;border-radius: 2px;text-align: center;padding-top: 10px;">
+                <span style="color:#9d9d9d; font-weight: lighter; font-size: 11px;letter-spacing: .22em;font-family: proxima-nova,sans-serif;">
+                    WE ARE ON...
+                </span><br><br>
+                <a href="#"><i class="fa fa-lg fa-facebook-square"></i></a><br><br><br>
+                <a href="#" style="text-decoration: none;"><span style="color: blue;font-weight: 600;">Like</span></a>
+           </div>
+
+           <div class="col-sm-4" style="width: 290px;height: 158px;border: 1px solid #ececec;border-radius: 2px; margin-left: 40px;text-align: center;padding-top: 10px">
+                <span style="color:#9d9d9d; font-weight: lighter;font-size: 11px;letter-spacing: .22em;font-family: proxima-nova,sans-serif;">
+                    DON`T MISS OUR LATEST TWEETS
+                </span><br><br>
+                <a href="#" ><i class="fa fa-lg fa-twitter"></i></a><br><br><br>
+                <a href="#" style="text-decoration: none;"><span style="color: #0075d8;font-size: small;font-weight: 500;">Follow @uxpin</span></a>
+           </div>
+
+           <div class="col-sm-4" style="width: 290px;height: 158px;border: 1px solid #ececec;border-radius: 2px;margin-left: 40px;text-align: center;padding-top: 10px">
+                <span style="color:#9d9d9d; font-weight: lighter;font-size: 11px;letter-spacing: .22em;font-family: proxima-nova,sans-serif;">
+                    ... AND HOT SHOTS ON DRIBBLE!
+                </span><br><br>
+                <a href="#" style="color:deeppink;text-decoration: none;font-family: pristina;font-weight: bold;font-size: xx-large;">dribbble</a><br>                <a href="#"><button class="drip">dribbble.com/uxpin</button></a>
+           </div>
+       </div>
+    </div><br><br><br>
+
+
+    <div style="padding-top: 40px;padding-bottom: 50px; background-color: #283442;width: 100%;">
+        <div class="news">
+            <span class="uppercase-header"style="text-align: center;">
+                SUBSCRIBE TO OUR NEWSLETTER
+            </span>
+            <ul class="list-unstyled">
+                <li class="un"><strong>Free</strong> e-Books</li>
+                <li class="nu"><strong>Free</strong>  UI Kits</li>
+                <li class="nu">Design Articles</li>
+            </ul>
+            <div>
+                <form style="text-align: center;">
+                    <input type="email" name="email" placeholder="Email address">
+                    <button type="submit" class="uy">Sign me up!</button>
+                </form>
+            </div>
+            <span style="color: #adbfcb;display: block;font-size: 12px;text-align: center;">
+                We protect your data with care – just as described in 
+                <a href="#" class="b">
+                    Privacy Policy
+                </a>.
+            </span>
+        </div><br><br>
+        <div class="container">
+            <span style="display: block;margin: 0; color: #828d94;font-size: 14px!important;letter-spacing: .3em;padding: 0 15px 0 0;position: relative;text-transform: uppercase;">
+                DEFINITIVE CONTENT
+            </span><br><br>
+            <div class="row">
+                <div class="col-sm-4">
+                    <span style=" color: #fff;font-size: 12px;font-weight: 600;letter-spacing: .2em;">
+                        E-BOOKS
+                    </span>
+                    <br><br>
+                    <a href="#" class="a">Design Trends 2020</a><br>
+                    <a href="#" class="a">Web Design Trends 2019</a><br>
+                    <a href="#" class="a">Design Trends 2018</a><br>
+                    <a href="#" class="a">Creating a Design System Quicky With UXPin</a><br>
+                    <a href="#" class="a">Scaling Design Thinking in the Enterprise</a><br>
+                    <a href="#" class="a">Product Development for Distributed Teams</a>
+                    <p></p>
+                </div>
+
+                <div class="col-sm-4">
+                    <span style=" color: #fff;font-size: 12px;font-weight: 600;letter-spacing: .2em;">
+                        BLOGS
+                    </span>
+                    <br><br>
+                    <a href="#" class="a">What is Storybook and Why Your Product Teamm Needs it?</a><br>
+                    <a href="#" class="a">What is New at UXPin? we’re Back with Another Produc...</a><br>
+                    <a href="#" class="a">10 UX UI Trends that Dominate 2023 and Beyond</a><br>
+                    <a href="#" class="a">Design Strategy - Definition, Scope, and Value</a><br>
+                    <a href="#" class="a">Figma Design System vs UXPin Design System - A Dee...</a><br>
+                    <a href="#" class="a">Figma to React - Best Plugins and Alternatives</a>
+                    <p></p>
+                </div>
+
+                <div class="col-sm-4">
+                    <span style=" color: #fff;font-size: 12px;font-weight: 600;letter-spacing: .2em;">
+                        WEBINARS
+                    </span>
+                    <br><br>
+                    <a href="#" class="a">Strategies for Building a Resilient DesignOps Pratice</a><br>
+                    <a href="#" class="a">Overcome Challenges of Scaling a Design System</a><br>
+                    <a href="#" class="a">Enterprise Design System - How to Build and Scale</a><br>
+                    <a href="#" class="a">Opening Keynote | Design Value Conference</a><br>
+                    <a href="#" class="a">DesignOps Layer of Impact | Design Value Conference</a><br>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-sm-2" style=" margin-top: 45px;">
+            <button class="pi">
+                UXPin
+            </button>
+        </div><br>
+        <span style="color: #adbfcb;display: block;font-size: 12px;text-align: center;">
+            <a href="#" class="b">
+                Privacy .
+            </a>
+            © 2010 - 2023 UXPin Sp. z o.o.
+        </span>
+    </div>
 </body>
 </html>
